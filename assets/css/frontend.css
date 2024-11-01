@@ -1,0 +1,24 @@
+.webpace_google_map_container:after {
+    content:'';
+    display:block;
+    clear:both;
+}
+
+.webpace_google_map_container a,
+.webpace_google_map_container div {
+    outline: 0;
+}
+
+.webpace_google_map_container > div {
+    perspective: 1px;
+}
+
+
+.webpace_google_map div:not(.gm-svpc) img {
+    max-width: none !important;
+    /*visibility: visible !important;*/
+}
+
+.webpace_google_map.hide {
+    display: none;
+}
